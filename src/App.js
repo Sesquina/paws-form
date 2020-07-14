@@ -101,14 +101,12 @@ class App extends React.Component {
             <h2>Color</h2>
             <input
               type="text"
-              placeholder="Brown"
               value={this.state.color}
               onChange={this.onColorChange}
             />
             <h2>Breed</h2>
             <input
               type="text"
-              placeholder="Labrador"
               value={this.state.breed}
               onChange={this.onBreedChange}
             />
@@ -122,7 +120,6 @@ class App extends React.Component {
             <h2>Gender</h2>
             <input
               type="text"
-              placeholder="Female"
               value={this.state.gender}
               onChange={this.onGenderChange}
             />
