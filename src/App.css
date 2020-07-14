@@ -1,0 +1,48 @@
+* {
+  background-color: #B6D5E1;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.left-div {
+  text-align: center;
+  padding: 2em;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+ 
+}
+
+.pup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  padding: 20px;
+}
+
+.pup-form > input {
+  width: 250px;
+  border: 0;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.pup-form > button {
+  width: 250px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.pup-form > button:hover {
+  background-color: #fafafa;
+}
