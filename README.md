@@ -1,7 +1,7 @@
 ### Welcome to Pawtastic
 - A Concierge Pet Wellness Company
 
-![Pawtastic Website Form](./sitepage.png "Site Form")
+![Pawtastic Website Form](./paws.png "Site Form")
 
 
 
