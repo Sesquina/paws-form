@@ -16,6 +16,7 @@
 .right-div {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
   padding-left: 2em;
  
 }
@@ -44,5 +45,23 @@
 }
 
 .pup-form > button:hover {
-  background-color: #fafafa;
+  background-color: #65799B;
+}
+.big{
+  Font-Family: 'Playfair Display', Serif;
+  Font-Size: 60px;
+}
+h1{
+  Font-Family: 'Playfair Display', Serif;
+  Font-Size: 30px;
+}
+
+h2{
+  Font-Family: 'Playfair Display', Serif;
+  Font-Size: 20px;
+}
+
+p{
+  Font-Family: 'Source Sans Pro', Sans-Serif;
+  Font-Size: 18px;
 }

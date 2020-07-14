@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import dog from './dog.jpg';
 
 class App extends React.Component {
   constructor() {
@@ -64,61 +65,61 @@ class App extends React.Component {
       <div className="App">
         {/* <div className='container'> */}
         <div className="left-div">
-          <h2>Pawtastic</h2>
-          <h4>
+          <h1 className="big" >Pawtastic</h1>
+          <p>
             We offer a range of preventative and wellness services - including
             exams, vaccinations, nutrition, and more. 
-          </h4>
-          <h3>Wellness Exams</h3>
-          <h4>
+          </p>
+          <h1>Wellness Exams</h1>
+          <p>
             Preventative medicine is the key to keeping your pet happy and
             healthy. We believe that all pets should undergo a comprehensive
             wellness exam annually, which focuses on all body systems and helps
             us identify health conditions in your pet before they become
             difficult and expensive to treat. 
-          </h4>
+          </p>
 
-          {/* <img src='./assets/dog.png' alt="image of dig"/> */}
+          <img src={dog} alt="dog" />
         </div>
 
         <div className="right-div">
-          <h2>Schedule a Consultation for Your Pup</h2>
+          <h1>Schedule a Consultation for Your Pup</h1>
           <form className="pup-form">
-            <label>Name</label>
+            <h2>Name</h2>
             <input
               type="name"
               placeholder="Yako"
               value={this.state.name}
               onChange={this.onNameChange}
             />
-            <label>Age</label>
+            <h2>Age</h2>
             <input
               type="number"
               value={this.state.age}
               onChange={this.onAgeChange}
             />
-            <label>Color</label>
+            <h2>Color</h2>
             <input
               type="text"
               placeholder="Brown"
               value={this.state.color}
               onChange={this.onColorChange}
             />
-            <label>Breed</label>
+            <h2>Breed</h2>
             <input
               type="text"
               placeholder="Labrador"
               value={this.state.breed}
               onChange={this.onBreedChange}
             />
-            <label>Weight</label>
+            <h2>Weight</h2>
             <input
               type="name"
               placeholder="in lbs"
               value={this.state.weight}
               onChange={this.onWeightChange}
             />
-            <label>Gender</label>
+            <h2>Gender</h2>
             <input
               type="text"
               placeholder="Female"
