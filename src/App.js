@@ -124,7 +124,6 @@ class App extends React.Component {
               onChange={this.onGenderChange}
             />
             <button
-              className="btn btn-primary btn-sm m-2"
               type="submit"
               onClick={this.submitForm}
             >
